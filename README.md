@@ -2,7 +2,7 @@
 
 > 联想Thinkpad E470(c)系列笔记本内置无线网络芯片为RTL8821CE的驱动解决方案。
 
-**仅在`Ubuntu16.04LTS`和`Ubuntu18.04LTS`** 版本下测试可用。
+**仅在`Ubuntu16.04LTS`和`Ubuntu18.04LTS`** 版本下测试可用。
 
 ## 要求
 
@@ -41,7 +41,7 @@ sudo dpkg -i *.deb
 
 # 删除默认内核文件
 cd /boot
-rm -rf `比4.14高版本的内核文件`
+rm -rf `比4.14高版本的内核文件`
 
 # 重启
 sudo reboot
